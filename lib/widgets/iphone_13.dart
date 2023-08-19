@@ -31,7 +31,6 @@ class _Iphone13PageState extends State<Iphone13> {
           onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context) =>  const Iphone14()));
             setState(() {
-              //hello
             });
           },
           icon:const Icon(
